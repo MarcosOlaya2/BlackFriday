@@ -1,0 +1,51 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(imagenes/fondo-hexagonal-negro-resolucion-pantalla-ancha_189959-4895.avif);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+}
+h2{
+    color: aliceblue;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: left;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+.container{
+    left: 100%;
+    width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+}
+.icon-cart{
+    width: 40px;
+    height: 40px;
+}
+img{
+    max-width: 100%;
+}
+
+/* Main */
+.container-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
